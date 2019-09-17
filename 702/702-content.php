@@ -31,19 +31,19 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div class="swiper-wrapper thumbs-list">
                         <div class="swiper-slide thumb-list-frame">
                             <a href="#img1" data-toggle="tab">
-                            <img class="img-responsive" src="<?php echo $url_path ?>/images/large1.jpg">    
+                            <img alt="" class="img-responsive" src="<?php echo $url_path ?>/images/large1.jpg">    
                             </a>
                         </div>
                         <div class="swiper-slide thumb-list-frame">
                             <a href="#img2" data-toggle="tab">
-                            <img class="img-responsive" src="<?php echo $url_path ?>/images/large2.jpg" >   
+                            <img alt="" class="img-responsive" src="<?php echo $url_path ?>/images/large2.jpg" >   
                             </a>
                         </div>
                         <div class="swiper-slide thumb-list-frame">
-                            <img class="img-responsive" src="<?php echo $url_path ?>/images/large3.jpg">    
+                            <img alt="" class="img-responsive" src="<?php echo $url_path ?>/images/large3.jpg">    
                         </div>
                         <div class="swiper-slide thumb-list-frame">
-                            <img class="img-responsive" src="<?php echo $url_path ?>/images/large4.jpg">    
+                            <img alt="" class="img-responsive" src="<?php echo $url_path ?>/images/large4.jpg">    
                         </div>
                     </div>
                 </div>  
