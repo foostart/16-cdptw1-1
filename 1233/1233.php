@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+
 <?php
- include '../config.php';
+ //include '../config.php';
 
         $url_host = 'http://'.$_SERVER['HTTP_HOST'];
-        $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), $sala);
+        $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
         $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
         preg_match_all($pattern_uri, __DIR__, $matches);
@@ -19,6 +19,7 @@ if (!class_exists('lessc')) {
 $less = new lessc;
 $less->compileFile('less/1233.less', 'css/1233.css');
 ?>
+<!DOCTYPE html>
 <html lang="en-US">
     <head>
         <title>1233</title>
