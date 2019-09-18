@@ -40,63 +40,63 @@ $url_path = str_replace('\\', '/', $url_path);
                             </a>
                         </div>
                         <div class="swiper-slide thumb-list-frame">
-                            <img alt="" class="img-responsive" src="<?php echo $url_path ?>/images/large3.jpg">    
+                            <a href="#img2" data-toggle="tab">
+                            <img alt="" class="img-responsive" src="<?php echo $url_path ?>/images/large3.jpg" >   
+                            </a>
                         </div>
                         <div class="swiper-slide thumb-list-frame">
-                            <img alt="" class="img-responsive" src="<?php echo $url_path ?>/images/large4.jpg">    
+                            <a href="#img2" data-toggle="tab">
+                            <img alt="" class="img-responsive" src="<?php echo $url_path ?>/images/large4.jpg" >   
+                            </a> 
                         </div>
                     </div>
                 </div>  
                 <div class="clearfix"></div>
             </div>
             <div class="clearfix"></div>
-            <div class="carousel slide multi-item-carousel" id="theCarousel">
+            <div class="swiper-container gallery-botton">
                 <div class="productscategory_h2">Related products</div>
-                <div class="carousel-margin">
-                    <div class="carousel-inner">
-                        <div class="item active">
+                <div class="swiper-wrapper">
+                        <div class="item swiper-slide">
                             <div class="col-xs-4">
                                 <a href="#1"><img src="<?php echo $url_path ?>/images/a1.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item swiper-slide">
                             <div class="col-xs-4">
                                 <a href="#1"><img src="<?php echo $url_path ?>/images/a2.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item swiper-slide">
                             <div class="col-xs-4">
                                 <a href="#1"><img src="<?php echo $url_path ?>/images/a3.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item swiper-slide">
                             <div class="col-xs-4">
                                 <a href="#1">
                                     <img src="<?php echo $url_path ?>/images/a4.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item swiper-slide">
                             <div class="col-xs-4">
                                 <a href="#1">
                                     <img src="<?php echo $url_path ?>/images/a5.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item swiper-slide">
                             <div class="col-xs-4">
                                 <a href="#1">
                                     <img src="<?php echo $url_path ?>/images/a6.jpg" class="img-responsive" alt="">
                                 </a>
                             </div>
                         </div>
-                        <!-- add  more items here -->
-                        <!-- Example item start:  -->
-
-                        <div class="item">
+                        <div class="item swiper-slide">
                             <div class="col-xs-4">
                                 <a href="#1">
                                     <img src="<?php echo $url_path ?>/images/a7.jpg" class="img-responsive" alt="">
@@ -104,15 +104,15 @@ $url_path = str_replace('\\', '/', $url_path);
                             </div>
                         </div>
 
-                    </div>
-                </div>
-
-                <a class="left carousel-control" href="#theCarousel" data-slide="prev">
+                  <a class="left gallerybotton" href="#" data-slide="prev">
                     <i class="fa fa-chevron-left"> </i>
                 </a>
-                <a class="right carousel-control" href="#theCarousel" data-slide="next">
+                <a class="right gallerybotton" href="#" data-slide="next">
                     <i class="fa fa-chevron-right"></i>
-                </a>
+                </a>  
+                </div>
+
+               
             </div>
         </div>
     </div>
