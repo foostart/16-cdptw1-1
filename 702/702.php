@@ -54,21 +54,21 @@
 
      var gallerybotton = new Swiper('.gallery-botton', {
       slidesPerView: 3,
-      spaceBetween: 7,
+      spaceBetween: 10,
       
       
       breakpoints: {
         640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
+          slidesPerView: 1,
+          spaceBetween: 10,
         },
         768: {
-          slidesPerView: 4,
-          spaceBetween: 40,
+          slidesPerView: 2,
+          spaceBetween: 10,
         },
         1024: {
-          slidesPerView: 5,
-          spaceBetween: 50,
+          slidesPerView: 2,
+          spaceBetween: 10,
         },
       }
     });

@@ -7,6 +7,15 @@ preg_match_all($pattern_uri, __DIR__, $matches);
 $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
 <div class="container container-modify header">
     <div class="modul-702"> 
         <div class="col-md-6 col-sm-6 col-xs-12 images-container">
@@ -30,7 +39,7 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="col-md-3 col-sm-3 col-xs-3 swiper-container gallery-thumbs views-block">   
                     <div class="swiper-wrapper thumbs-list">
                         <div class="swiper-slide thumb-list-frame">
-                            <a href="#img1" data-toggle="tab">
+                            <a href="#img1" data-toggle="tab" class="tab-list">
                             <img alt="" class="img-responsive" src="<?php echo $url_path ?>/images/large1.jpg">    
                             </a>
                         </div>
@@ -58,50 +67,50 @@ $url_path = str_replace('\\', '/', $url_path);
                 <div class="productscategory_h2">Related products</div>
                 <div class="swiper-wrapper">
                         <div class="item swiper-slide">
-                            <div class="col-xs-4">
-                                <a href="#1"><img src="<?php echo $url_path ?>/images/a1.jpg" class="img-responsive" alt="">
+                            
+                                <a href="#1"><img src="<?php echo $url_path ?>/images/a1.jpg"  alt="">
                                 </a>
-                            </div>
+                            
                         </div>
                         <div class="item swiper-slide">
-                            <div class="col-xs-4">
-                                <a href="#1"><img src="<?php echo $url_path ?>/images/a2.jpg" class="img-responsive" alt="">
+                            
+                                <a href="#1"><img src="<?php echo $url_path ?>/images/a2.jpg"  alt="">
                                 </a>
-                            </div>
+                            
                         </div>
                         <div class="item swiper-slide">
-                            <div class="col-xs-4">
-                                <a href="#1"><img src="<?php echo $url_path ?>/images/a3.jpg" class="img-responsive" alt="">
+                            
+                                <a href="#1"><img src="<?php echo $url_path ?>/images/a3.jpg"  alt="">
                                 </a>
-                            </div>
+                            
                         </div>
                         <div class="item swiper-slide">
-                            <div class="col-xs-4">
+                            
                                 <a href="#1">
-                                    <img src="<?php echo $url_path ?>/images/a4.jpg" class="img-responsive" alt="">
+                                    <img src="<?php echo $url_path ?>/images/a4.jpg"  alt="">
                                 </a>
-                            </div>
+                            
                         </div>
                         <div class="item swiper-slide">
-                            <div class="col-xs-4">
+                            
                                 <a href="#1">
-                                    <img src="<?php echo $url_path ?>/images/a5.jpg" class="img-responsive" alt="">
+                                    <img src="<?php echo $url_path ?>/images/a5.jpg"  alt="">
                                 </a>
-                            </div>
+                            
                         </div>
                         <div class="item swiper-slide">
-                            <div class="col-xs-4">
+                            
                                 <a href="#1">
-                                    <img src="<?php echo $url_path ?>/images/a6.jpg" class="img-responsive" alt="">
+                                    <img src="<?php echo $url_path ?>/images/a6.jpg"  alt="">
                                 </a>
-                            </div>
+                            
                         </div>
                         <div class="item swiper-slide">
-                            <div class="col-xs-4">
+                            
                                 <a href="#1">
-                                    <img src="<?php echo $url_path ?>/images/a7.jpg" class="img-responsive" alt="">
+                                    <img src="<?php echo $url_path ?>/images/a7.jpg"  alt="">
                                 </a>
-                            </div>
+                            
                         </div>
 
                   <a class="left gallerybotton" href="#" data-slide="prev">
@@ -117,3 +126,14 @@ $url_path = str_replace('\\', '/', $url_path);
         </div>
     </div>
 </div>
+<script>
+$(".tab-list").on("click",".tab", function(e){
+    e.preventDefault();
+    $(".tab").removeClass("active-tab");
+    $(".tab-content").removeClass("show");
+    $(this).addClass("active-tab");
+    $($(this).attr('href')).addClass("show");
+});
+</script>
+</body>
+</html>
