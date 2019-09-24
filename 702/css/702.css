@@ -112,6 +112,29 @@
   margin-bottom: 20px;
   border-bottom: 1px solid #e0e0e0;
 }
+.modul-702 .swiper_btn {
+  width: 62px;
+  height: 62px;
+  margin: -22px 0 0 0;
+  background-position: 50% 50%;
+  top: 50%;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+  color: #ffffff;
+}
+.modul-702 .swiper_btn:hover {
+  color: #e0e0e0;
+}
+.modul-702 #swiper_btn_prev {
+  left: 5%;
+  font-size: 40px;
+}
+.modul-702 #swiper_btn_next {
+  right: 0;
+  font-size: 40px;
+}
 @media (max-width: 979px) and (min-width: 728px) {
   .chi-tiet .center-containt {
     width: 90%;
