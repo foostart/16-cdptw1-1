@@ -20,7 +20,7 @@
     <head>
         <title>702</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1 , minimum-scale=1, maximum-scale=1">
         <link href="<?php echo $url_path ?>/css/bootstrap.min-3.3.6.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/font-awesome.min-4.6.3.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/swiper.min-3.4.2.css" rel="stylesheet" type="text/css"/>
@@ -36,10 +36,7 @@
          <script>
     var galleryTop = new Swiper('.gallery-top', {
       spaceBetween: 30,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
+      
     });
     var galleryThumbs = new Swiper('.gallery-thumbs', {
       direction: 'vertical',
@@ -55,22 +52,17 @@
      var gallerybotton = new Swiper('.gallery-botton', {
       slidesPerView: 3,
       spaceBetween: 10,
-      
-      
-      breakpoints: {
-        640: {
-          slidesPerView: 1,
-          spaceBetween: 10,
-        },
-        768: {
-          slidesPerView: 2,
-          spaceBetween: 10,
-        },
-        1024: {
-          slidesPerView: 2,
-          spaceBetween: 10,
-        },
-      }
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
     });
   </script>
     </body>

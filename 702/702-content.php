@@ -65,7 +65,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="clearfix"></div>
             <div class="swiper-container gallery-botton">
                 <div class="productscategory_h2">Related products</div>
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper botton-wrapper">
                         <div class="item swiper-slide">
                             
                                 <a href="#1"><img src="<?php echo $url_path ?>/images/a1.jpg"  alt="">
@@ -113,27 +113,15 @@ $url_path = str_replace('\\', '/', $url_path);
                             
                         </div>
 
-                  <a class="left gallerybotton" href="#" data-slide="prev">
-                    <i class="fa fa-chevron-left"> </i>
-                </a>
-                <a class="right gallerybotton" href="#" data-slide="next">
-                    <i class="fa fa-chevron-right"></i>
-                </a>  
+                 
                 </div>
 
-               
+                <div class="swiper-button-next" ></div>
+                <div class="swiper-button-prev" ></div>  
             </div>
         </div>
     </div>
 </div>
-<script>
-$(".tab-list").on("click",".tab", function(e){
-    e.preventDefault();
-    $(".tab").removeClass("active-tab");
-    $(".tab-content").removeClass("show");
-    $(this).addClass("active-tab");
-    $($(this).attr('href')).addClass("show");
-});
-</script>
+
 </body>
 </html>
