@@ -47,7 +47,7 @@ $less->compileFile('less/702.less', 'css/702.css');
      
         var gallerybotton = new Swiper('.gallery-botton', {
             slidesPerView: 3,
-            spaceBetween: 50,
+            spaceBetween: 10,
             slidesPerGroup: 1,
             loop: true,
             loopFillGroupWithBlank: true,
