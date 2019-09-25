@@ -90,16 +90,33 @@
     }
 
 
+    .gallery-thumbs {
+          height: 20%;
+          box-sizing: border-box;
+          padding: 10px;
+    }
+
+
+
+    .swiper-slide {
+          background-size: cover;
+          background-position: center;
+    }
+
+
     
     .gallery-botton{
         
         width: 100%;
         height: 100%;
+
         .botton-wrapper{
+
             .item{
+              margin: 0px 0px 0px 1px;
               text-align: center;
               font-size: 18px;
-              background: #fff;
+        
             
               display: -webkit-box;
               display: -ms-flexbox;
@@ -165,29 +182,14 @@
 
 @media (max-width: 979px) and (min-width: 728px)
 {
-    .chi-tiet{
-        .center-containt{
-            width: 90%;
-        }
-    }
+    
 }
 @media (max-width: 727px){
-    .chi-tiet{
-        .container-modify{
-            width: 450px;
-            margin:0 auto;
-            padding:0;
-        }
-        .center-containt{
-           div {
-                    display: none;
-                }
-        }
-        .images-container {
+    
+    .images-container {
             ul.thumb-list-frame{
                 padding:8px;
             }
-        }
     }
 }
 
@@ -201,25 +203,24 @@
     }
 }
 @media (max-width:990px) and (min-width:768px){
-    .chi-tiet{
-        .images-container {
-            .views-block{
-                padding:0 10px;
-            }
-            ul.thumb-list-frame{
-                padding:3.2px;
-                margin-top:-3px;
-            }
+    
+    .images-container {
+        .views-block{
+            padding:0 10px;
+        }
+        ul.thumb-list-frame{
+            padding:3.2px;
+            margin-top:-3px;
         }
     }
+    
 }
 @media (max-width:768px) and (min-width:728px){
-    .chi-tiet{
-        .images-container{
-            ul.thumb-list-frame{
-                padding:8.5px; 
-                margin-top:-8px;
-            }
+  
+    .images-container{
+        ul.thumb-list-frame{
+            padding:8.5px; 
+            margin-top:-8px;
         }
     }
 }
