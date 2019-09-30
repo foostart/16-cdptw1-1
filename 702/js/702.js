@@ -3,16 +3,16 @@ $(document).ready(function () {
             direction: 'vertical',
             spaceBetween: 10,
             slidesPerView: 'auto',
-            freeMode: true,
-            watchSlidesVisibility: true,
-            watchSlidesProgress: true,
+            touchRatio: 0.2,
+            slideToClickedSlide: true,
+                
         });
         var galleryTop = new Swiper('.gallery-top', {
             spaceBetween: 10,
-            thumbs: {
-                swiper: galleryThumbs
-            }
+            
         });
+        galleryTop.controller.control = galleryThumbs;
+        galleryThumbs.controller.control = galleryTop;
      
         var gallerybotton = new Swiper('.gallery-botton', {
             slidesPerView: 3,
