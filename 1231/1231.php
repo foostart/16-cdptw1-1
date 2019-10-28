@@ -19,7 +19,6 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,13 +28,9 @@
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">   
         <title>1231</title>
     </head>
-
     <body>
             <?php include $dir_block.'/1231-content.php'; ?>
-       
-     
     </body>
-
 </html>
 
 

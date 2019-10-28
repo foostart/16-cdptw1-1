@@ -1,0 +1,79 @@
+.type-985 {
+  position: relative;
+  height: 100%;
+  .header {
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    .cover-header {
+      width: 604px;
+      height: 420px;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      .slide-show {
+        width: 480px;
+        height: 420px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        .slide {
+          .swiper-slide {
+            background-position: center;
+            background-size: cover;
+            border-radius: 15px;
+          }
+        }
+      }
+      .arrow {
+        background: url("../images/arrows.png") no-repeat;
+        position: absolute;
+        cursor: pointer;
+        top: 45%;
+        outline: none;
+      }
+      .arrow.left {
+        width: 35px;
+        height: 70px;
+        left: 0%;
+        background-position: center top;
+      }
+      .arrow.left:hover {
+        background-position: center -70px;
+      }
+      .arrow.right {
+        width: 35px;
+        height: 70px;
+        right: 0%;
+        background-position: center -140px;
+      }
+      .arrow.right:hover {
+        background-position: center -210px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 612px) {
+  .type-985 .header .cover-header {
+    .arrow {
+      top: 110%;
+    }
+    .arrow.left {
+      
+      left: 35%;
+    }
+
+    .arrow.right {
+      
+      right: 35%;
+    }
+   
+  }
+  .type-985 .header .cover-header {
+    width: 100%;
+  }
+}

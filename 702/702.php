@@ -18,12 +18,12 @@ $less->compileFile('less/702.less', 'css/702.css');
         <title>702</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1 , minimum-scale=1, maximum-scale=1">
-        <link href="<?php echo $url_path ?>/css/bootstrap.min-3.3.6.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/font-awesome.min-4.6.3.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/swiper.min-3.4.2.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
         <link href="<?php echo $url_path ?>/css/702.css" rel="stylesheet" type="text/css"/>
         <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/jquery-1.11.0.min.js"></script>
+        <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
         <script src="<?php echo $url_path ?>/js/bootstrap.min.js" ></script>
          <script src="<?php echo $url_path ?>/js/702.js"></script>
     </head>

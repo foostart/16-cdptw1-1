@@ -18,26 +18,23 @@ $less->compileFile('less/1230.less', 'css/1230.css');
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">   
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />  
-        <link href="<?php echo $url_path ?>/css/1230.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/> 
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
-        <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>  
-        <script src="<?php echo $url_path ?>/js/1230.js"></script>
-        <title>1230</title>
-    </head>
-    <body>
-        <?php
-        include '1230-content.php';
-        ?>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/1230.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css" />
+    <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/1230.js"></script>
+    <title>1230</title>
+</head>
+
+<body>
+    <?php include '1230-content.php';?>
+</body>
+
 </html>
-
-
-
-

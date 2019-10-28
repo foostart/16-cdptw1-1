@@ -70,7 +70,7 @@
 }
 .type-1230 .blog-content .portfolio-overlay a {
   position: absolute;
-  top: 40%;
+  top: 55%;
   left: 57%;
   background-color: #F5F5F5;
   width: 40px !important;
@@ -138,6 +138,9 @@
 @media all and (max-width: 1200px) {
   .type-1230 .blog-content .blog-img img {
     width: 305px;
+  }
+  .type-1230 .blog-top {
+    padding: 30px 0px 30px 6px;
   }
 }
 @media all and (max-width: 992px) {

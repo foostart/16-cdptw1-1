@@ -221,19 +221,18 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </h3>
                                                     <ul class="deal-meta list-inline">
                                                         <li><i class="ico fa fa-map-marker"></i>
-                                                            <a href="#"><font><font>New Taipei City</font></font></a>
-                                                            <font><font>,</font></font>
-                                                            <a href="#"><font><font >Shulin District</font></font></a>
-                                                            <font ><font >,
-                                                            </font></font>
-                                                            <a href="#"><font><font>36-pyeong</font></font></a>
+                                                            <a href="#">New Taipei City</a>
+                                                            ,
+                                                            <a href="#">Shulin District</a>
+                                                            ,
+                                                            <a href="#">36-pyeong</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="deal-price">
                                                     <h3 class="price ">
-                                                        <a href="#"><font>wooden</font></a><font >,
-                                                        <a href="#"><font >deep and shallow mixed building</font></a> </font>
+                                                        <a href="#">wooden</a>,
+                                                        <a href="#">deep and shallow mixed building</a>
                                                     </h3>
                                                 </div>
                                             </div>
@@ -252,7 +251,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="deal-single panel">
                                             <!--IMAGE-->
                                             <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">
-                                                <img src="<?php echo $url_path ?>/images/4.jpg" >
+                                                <img src="<?php echo $url_path ?>/images/5.jpg" >
                                             </figure>
 
                                             <div class="deal-single-content">
@@ -262,19 +261,19 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </h3>
                                                     <ul class="deal-meta list-inline">
                                                         <li><i class="ico fa fa-map-marker"></i>
-                                                            <a href="#"><font><font>New Taipei City</font></font></a>
-                                                            <font><font>,</font></font>
-                                                            <a href="#"><font><font >Shulin District</font></font></a>
-                                                            <font ><font >,
-                                                            </font></font>
-                                                            <a href="#"><font><font>36-pyeong</font></font></a>
+                                                            <a href="#">New Taipei City</a>
+                                                             ,
+                                                            <a href="#">Shulin District</a>
+                                                            ,
+                                                            
+                                                            <a href="#">36-pyeong</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="deal-price">
                                                     <h3 class="price ">
-                                                        <a href="#"><font>wooden</font></a><font >,
-                                                        <a href="#"><font >deep and shallow mixed building</font></a> </font>
+                                                        <a href="#">wooden</a>,
+                                                        <a href="#">deep and shallow mixed building</a> 
                                                     </h3>
                                                 </div>
                                             </div>
@@ -293,7 +292,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="deal-single panel">
                                             <!--IMAGE-->
                                             <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">
-                                                <img src="<?php echo $url_path ?>/images/4.jpg" >
+                                                <img src="<?php echo $url_path ?>/images/6.jpg" >
                                             </figure>
 
                                             <div class="deal-single-content">
@@ -303,19 +302,19 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </h3>
                                                     <ul class="deal-meta list-inline">
                                                         <li><i class="ico fa fa-map-marker"></i>
-                                                            <a href="#"><font><font>New Taipei City</font></font></a>
-                                                            <font><font>,</font></font>
-                                                            <a href="#"><font><font >Shulin District</font></font></a>
-                                                            <font ><font >,
-                                                            </font></font>
-                                                            <a href="#"><font><font>36-pyeong</font></font></a>
+                                                            <a href="#">New Taipei City</a>
+                                                            ,
+                                                            <a href="#">Shulin District</a>
+                                                            ,
+                                                            
+                                                            <a href="#">36-pyeong</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="deal-price">
                                                     <h3 class="price ">
-                                                        <a href="#"><font>wooden</font></a><font >,
-                                                        <a href="#"><font >deep and shallow mixed building</font></a> </font>
+                                                        <a href="#">wooden</a>,
+                                                        <a href="#">deep and shallow mixed building</a> 
                                                     </h3>
                                                 </div>
                                             </div>
@@ -347,7 +346,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="deal-single panel">
                                             <!--IMAGE-->
                                             <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">
-                                                <img src="<?php echo $url_path ?>/images/4.jpg" >
+                                                <img src="<?php echo $url_path ?>/images/7.jpg" >
                                             </figure>
 
                                             <div class="deal-single-content">
@@ -357,19 +356,19 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </h3>
                                                     <ul class="deal-meta list-inline">
                                                         <li><i class="ico fa fa-map-marker"></i>
-                                                            <a href="#"><font><font>New Taipei City</font></font></a>
-                                                            <font><font>,</font></font>
-                                                            <a href="#"><font><font >Shulin District</font></font></a>
-                                                            <font ><font >,
-                                                            </font></font>
-                                                            <a href="#"><font><font>36-pyeong</font></font></a>
+                                                            <a href="#">New Taipei City</a>
+                                                            ,
+                                                            <a href="#">Shulin District</a>
+                                                            ,
+                                                            
+                                                            <a href="#">36-pyeong</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="deal-price">
                                                     <h3 class="price ">
-                                                        <a href="#"><font>wooden</font></a><font >,
-                                                        <a href="#"><font >deep and shallow mixed building</font></a> </font>
+                                                        <a href="#">wooden</a>,
+                                                        <a href="#">deep and shallow mixed building</a> 
                                                     </h3>
                                                 </div>
                                             </div>
@@ -388,7 +387,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="deal-single panel">
                                             <!--IMAGE-->
                                             <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">
-                                                <img src="<?php echo $url_path ?>/images/4.jpg" >
+                                                <img src="<?php echo $url_path ?>/images/8.jpg" >
                                             </figure>
 
                                             <div class="deal-single-content">
@@ -398,19 +397,19 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </h3>
                                                     <ul class="deal-meta list-inline">
                                                         <li><i class="ico fa fa-map-marker"></i>
-                                                            <a href="#"><font><font>New Taipei City</font></font></a>
-                                                            <font><font>,</font></font>
-                                                            <a href="#"><font><font >Shulin District</font></font></a>
-                                                            <font ><font >,
-                                                            </font></font>
-                                                            <a href="#"><font><font>36-pyeong</font></font></a>
+                                                            <a href="#">New Taipei City</a>
+                                                            ,
+                                                            <a href="#">Shulin District</a>
+                                                            ,
+                                                            
+                                                            <a href="#">36-pyeong</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="deal-price">
                                                     <h3 class="price ">
-                                                        <a href="#"><font>wooden</font></a><font >,
-                                                        <a href="#"><font >deep and shallow mixed building</font></a> </font>
+                                                        <a href="#">wooden</a>,
+                                                        <a href="#">deep and shallow mixed building</a> 
                                                     </h3>
                                                 </div>
                                             </div>
@@ -429,7 +428,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="deal-single panel">
                                             <!--IMAGE-->
                                             <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">
-                                                <img src="<?php echo $url_path ?>/images/4.jpg" >
+                                                <img src="<?php echo $url_path ?>/images/9.jpg" >
                                             </figure>
 
                                             <div class="deal-single-content">
@@ -439,19 +438,19 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </h3>
                                                     <ul class="deal-meta list-inline">
                                                         <li><i class="ico fa fa-map-marker"></i>
-                                                            <a href="#"><font><font>New Taipei City</font></font></a>
-                                                            <font><font>,</font></font>
-                                                            <a href="#"><font><font >Shulin District</font></font></a>
-                                                            <font ><font >,
-                                                            </font></font>
-                                                            <a href="#"><font><font>36-pyeong</font></font></a>
+                                                            <a href="#">New Taipei City</a>
+                                                            ,
+                                                            <a href="#">Shulin District</a>
+                                                            ,
+                                                            
+                                                            <a href="#">36-pyeong</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="deal-price">
                                                     <h3 class="price ">
-                                                        <a href="#"><font>wooden</font></a><font >,
-                                                        <a href="#"><font >deep and shallow mixed building</font></a> </font>
+                                                        <a href="#">wooden</a>,
+                                                        <a href="#">deep and shallow mixed building</a> 
                                                     </h3>
                                                 </div>
                                             </div>
@@ -483,7 +482,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="deal-single panel">
                                             <!--IMAGE-->
                                             <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">
-                                                <img src="<?php echo $url_path ?>/images/4.jpg" >
+                                                <img src="<?php echo $url_path ?>/images/10.jpg" >
                                             </figure>
 
                                             <div class="deal-single-content">
@@ -493,19 +492,19 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </h3>
                                                     <ul class="deal-meta list-inline">
                                                         <li><i class="ico fa fa-map-marker"></i>
-                                                            <a href="#"><font><font>New Taipei City</font></font></a>
-                                                            <font><font>,</font></font>
-                                                            <a href="#"><font><font >Shulin District</font></font></a>
-                                                            <font ><font >,
-                                                            </font></font>
-                                                            <a href="#"><font><font>36-pyeong</font></font></a>
+                                                            <a href="#">New Taipei City</a>
+                                                            ,
+                                                            <a href="#">Shulin District</a>
+                                                            ,
+                                                            
+                                                            <a href="#">36-pyeong</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="deal-price">
                                                     <h3 class="price ">
-                                                        <a href="#"><font>wooden</font></a><font >,
-                                                        <a href="#"><font >deep and shallow mixed building</font></a> </font>
+                                                        <a href="#">wooden</a>,
+                                                        <a href="#">deep and shallow mixed building</a> 
                                                     </h3>
                                                 </div>
                                             </div>
@@ -524,7 +523,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="deal-single panel">
                                             <!--IMAGE-->
                                             <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">
-                                                <img src="<?php echo $url_path ?>/images/4.jpg" >
+                                                <img src="<?php echo $url_path ?>/images/11.jpg" >
                                             </figure>
 
                                             <div class="deal-single-content">
@@ -534,19 +533,19 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </h3>
                                                     <ul class="deal-meta list-inline">
                                                         <li><i class="ico fa fa-map-marker"></i>
-                                                            <a href="#"><font><font>New Taipei City</font></font></a>
-                                                            <font><font>,</font></font>
-                                                            <a href="#"><font><font >Shulin District</font></font></a>
-                                                            <font ><font >,
-                                                            </font></font>
-                                                            <a href="#"><font><font>36-pyeong</font></font></a>
+                                                            <a href="#">New Taipei City</a>
+                                                            ,
+                                                            <a href="#">Shulin District</a>
+                                                            ,
+                                                            
+                                                            <a href="#">36-pyeong</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="deal-price">
                                                     <h3 class="price ">
-                                                        <a href="#"><font>wooden</font></a><font >,
-                                                        <a href="#"><font >deep and shallow mixed building</font></a> </font>
+                                                        <a href="#">wooden</a>,
+                                                        <a href="#">deep and shallow mixed building</a> 
                                                     </h3>
                                                 </div>
                                             </div>
@@ -565,7 +564,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="deal-single panel">
                                             <!--IMAGE-->
                                             <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">
-                                                <img src="<?php echo $url_path ?>/images/4.jpg" >
+                                                <img src="<?php echo $url_path ?>/images/12.jpg" >
                                             </figure>
 
                                             <div class="deal-single-content">
@@ -575,19 +574,19 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </h3>
                                                     <ul class="deal-meta list-inline">
                                                         <li><i class="ico fa fa-map-marker"></i>
-                                                            <a href="#"><font><font>New Taipei City</font></font></a>
-                                                            <font><font>,</font></font>
-                                                            <a href="#"><font><font >Shulin District</font></font></a>
-                                                            <font ><font >,
-                                                            </font></font>
-                                                            <a href="#"><font><font>36-pyeong</font></font></a>
+                                                            <a href="#">New Taipei City</a>
+                                                            ,
+                                                            <a href="#">Shulin District</a>
+                                                            ,
+                                                            
+                                                            <a href="#">36-pyeong</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="deal-price">
                                                     <h3 class="price ">
-                                                        <a href="#"><font>wooden</font></a><font >,
-                                                        <a href="#"><font >deep and shallow mixed building</font></a> </font>
+                                                        <a href="#">wooden</a>,
+                                                        <a href="#">deep and shallow mixed building</a> 
                                                     </h3>
                                                 </div>
                                             </div>
@@ -619,7 +618,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="deal-single panel">
                                             <!--IMAGE-->
                                             <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">
-                                                <img src="<?php echo $url_path ?>/images/4.jpg" >
+                                                <img src="<?php echo $url_path ?>/images/13.jpg" >
                                             </figure>
 
                                             <div class="deal-single-content">
@@ -629,19 +628,19 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </h3>
                                                     <ul class="deal-meta list-inline">
                                                         <li><i class="ico fa fa-map-marker"></i>
-                                                            <a href="#"><font><font>New Taipei City</font></font></a>
-                                                            <font><font>,</font></font>
-                                                            <a href="#"><font><font >Shulin District</font></font></a>
-                                                            <font ><font >,
-                                                            </font></font>
-                                                            <a href="#"><font><font>36-pyeong</font></font></a>
+                                                            <a href="#">New Taipei City</a>
+                                                            ,
+                                                            <a href="#">Shulin District</a>
+                                                            ,
+                                                            
+                                                            <a href="#">36-pyeong</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="deal-price">
                                                     <h3 class="price ">
-                                                        <a href="#"><font>wooden</font></a><font >,
-                                                        <a href="#"><font >deep and shallow mixed building</font></a> </font>
+                                                        <a href="#">wooden</a>,
+                                                        <a href="#">deep and shallow mixed building</a> 
                                                     </h3>
                                                 </div>
                                             </div>
@@ -660,7 +659,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="deal-single panel">
                                             <!--IMAGE-->
                                             <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">
-                                                <img src="<?php echo $url_path ?>/images/4.jpg" >
+                                                <img src="<?php echo $url_path ?>/images/14.jpg" >
                                             </figure>
 
                                             <div class="deal-single-content">
@@ -670,19 +669,19 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </h3>
                                                     <ul class="deal-meta list-inline">
                                                         <li><i class="ico fa fa-map-marker"></i>
-                                                            <a href="#"><font><font>New Taipei City</font></font></a>
-                                                            <font><font>,</font></font>
-                                                            <a href="#"><font><font >Shulin District</font></font></a>
-                                                            <font ><font >,
-                                                            </font></font>
-                                                            <a href="#"><font><font>36-pyeong</font></font></a>
+                                                            <a href="#">New Taipei City</a>
+                                                            ,
+                                                            <a href="#">Shulin District</a>
+                                                            ,
+                                                            
+                                                            <a href="#">36-pyeong</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="deal-price">
                                                     <h3 class="price ">
-                                                        <a href="#"><font>wooden</font></a><font >,
-                                                        <a href="#"><font >deep and shallow mixed building</font></a> </font>
+                                                        <a href="#">wooden</a>,
+                                                        <a href="#">deep and shallow mixed building</a> 
                                                     </h3>
                                                 </div>
                                             </div>
@@ -701,7 +700,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                         <div class="deal-single panel">
                                             <!--IMAGE-->
                                             <figure id="img" class="deal-thumbnail embed-responsive embed-responsive-16by9">
-                                                <img src="<?php echo $url_path ?>/images/4.jpg" >
+                                                <img src="<?php echo $url_path ?>/images/15.jpg" >
                                             </figure>
 
                                             <div class="deal-single-content">
@@ -711,19 +710,19 @@ $url_path = str_replace('\\', '/', $url_path);
                                                     </h3>
                                                     <ul class="deal-meta list-inline">
                                                         <li><i class="ico fa fa-map-marker"></i>
-                                                            <a href="#"><font><font>New Taipei City</font></font></a>
-                                                            <font><font>,</font></font>
-                                                            <a href="#"><font><font >Shulin District</font></font></a>
-                                                            <font ><font >,
-                                                            </font></font>
-                                                            <a href="#"><font><font>36-pyeong</font></font></a>
+                                                            <a href="#">New Taipei City</a>
+                                                            ,
+                                                            <a href="#">Shulin District</a>
+                                                            ,
+                                                            
+                                                            <a href="#">36-pyeong</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="deal-price">
                                                     <h3 class="price ">
-                                                        <a href="#"><font>wooden</font></a><font >,
-                                                        <a href="#"><font >deep and shallow mixed building</font></a> </font>
+                                                        <a href="#">wooden</a>,
+                                                        <a href="#">deep and shallow mixed building</a> 
                                                     </h3>
                                                 </div>
                                             </div>

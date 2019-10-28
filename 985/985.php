@@ -1,160 +1,37 @@
+<?php
+$url_host = 'http://' . $_SERVER['HTTP_HOST'];
+$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+preg_match_all($pattern_uri, __DIR__, $matches);
+$url_path = $url_host . $matches[1][0];
+$url_path = str_replace('\\', '/', $url_path);
+if (!class_exists('lessc')) {
+$dir_block = dirname($_SERVER['SCRIPT_FILENAME']);
+require_once($dir_block . '/libs/lessc.inc.php');
+}
+$less = new lessc;
+$less->compileFile('less/985.less', 'css/985.css');
+?>
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <title>985</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1 , minimum-scale=1, maximum-scale=1">
 
-        <script src="js/jquery.min.js" type="text/javascript"></script>
-        <script src="js/style.js" type="text/javascript"></script>
+<head>
+    <title>985</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css" />
+    <link href="<?php echo $url_path ?>/css/985.css" rel="stylesheet" type="text/css" />
+    <script src="<?php echo $url_path ?>/js/swiper.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/jquery.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/985.js"></script>
 
-        <?php
-        if (!class_exists('lessc')) {
-            include ('./libs/lessc.inc.php');
-        }
-        $less = new lessc;
-        $less->compileFile('less/style.less', 'css/style.css');
-        ?>
+</head>
 
-        <link href="css/style.css" rel="stylesheet" type="text/css"/>
-    </head>
-    <body>
-        <div class="mod-custom-20">
-            <div id="mosaic-slideshow">
-                <div class="arrow left"></div>
-                <div class="arrow right"></div>
-                <div class="mosaic-slide" style="z-index: 10;">
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg)  0px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -60px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -120px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -180px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -240px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -300px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -360px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -420px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="clear"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) 0px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -60px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -120px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -180px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -240px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -300px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -360px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -420px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="clear"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) 0px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -60px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -120px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -180px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -240px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -300px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -360px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -420px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="clear"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) 0px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -60px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -120px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -180px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -240px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -300px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -360px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -420px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="clear"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) 0px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -60px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -120px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -180px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -240px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -300px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -360px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -420px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="clear"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) 0px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -60px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -120px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -180px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -240px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -300px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -360px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -420px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="clear"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) 0px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -60px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -120px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -180px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -240px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -300px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -360px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="visibility: hidden; background: url(images/slide_1.jpg) -420px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="clear"></div>
-                </div>
-                <div class="mosaic-slide" style="z-index: 1;">
-                    <div class="tile" style="background: url(images/slide_1.jpg) 0px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -60px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -120px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -180px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -240px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -300px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -360px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -420px 0px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="clear"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) 0px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -60px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -120px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -180px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -240px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -300px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -360px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -420px -60px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="clear"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) 0px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -60px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -120px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -180px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -240px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -300px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -360px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -420px -120px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="clear"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) 0px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -60px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -120px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -180px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -240px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -300px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -360px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -420px -180px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="clear"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) 0px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -60px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -120px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -180px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -240px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -300px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -360px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -420px -240px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="clear"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) 0px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -60px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -120px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -180px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -240px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -300px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -360px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -420px -300px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="clear"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) 0px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -60px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -120px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -180px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -240px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -300px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -360px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="tile" style="background: url(images/slide_1.jpg) -420px -360px no-repeat rgb(85, 85, 85);"></div>
-                    <div class="clear"></div>
-                </div>
-            </div>
-        </div>
-    </body>
+<body>
+    <?php include $dir_block . '/985-content.php'; ?>
+</body>
+
 </html>

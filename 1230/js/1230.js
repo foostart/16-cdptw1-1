@@ -5,10 +5,6 @@ $(document).ready(function () {
         slidesPerGroup: 1,
         loop: true,
         loopFillGroupWithBlank: true,
-        pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-        },
         nextButton: '#swiper_btn_next',
         prevButton: '#swiper_btn_prev',
         breakpoints: {

@@ -61,7 +61,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                 <label class="select">
                                     <select>
                                         <option>apartment number</option>
-                                        <option>All</option>                                              
+                                        <option>All</option>
                                         <option>small apartments(20)</option>
                                         <option>total(21-40)</option>
                                         <option>Daping (40)</option>
@@ -80,7 +80,9 @@ $url_path = str_replace('\\', '/', $url_path);
                             <li>
                                 <a href="#"><img alt="#" src="<?php echo $url_path ?>/images/search-dark.png"></a>
                             </li>
+                            
                         </ul>
+                        
                     </form>
                     <!--end form-->
                 </nav>

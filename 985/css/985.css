@@ -1,0 +1,71 @@
+.type-985 {
+  position: relative;
+  height: 100%;
+}
+.type-985 .header {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.type-985 .header .cover-header {
+  width: 604px;
+  height: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.type-985 .header .cover-header .slide-show {
+  width: 480px;
+  height: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+.type-985 .header .cover-header .slide-show .slide .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+}
+.type-985 .header .cover-header .arrow {
+  background: url("../images/arrows.png") no-repeat;
+  position: absolute;
+  cursor: pointer;
+  top: 45%;
+  outline: none;
+}
+.type-985 .header .cover-header .arrow.left {
+  width: 35px;
+  height: 70px;
+  left: 0%;
+  background-position: center top;
+}
+.type-985 .header .cover-header .arrow.left:hover {
+  background-position: center -70px;
+}
+.type-985 .header .cover-header .arrow.right {
+  width: 35px;
+  height: 70px;
+  right: 0%;
+  background-position: center -140px;
+}
+.type-985 .header .cover-header .arrow.right:hover {
+  background-position: center -210px;
+}
+@media only screen and (max-width: 612px) {
+  .type-985 .header .cover-header .arrow {
+    top: 110%;
+  }
+  .type-985 .header .cover-header .arrow.left {
+    left: 35%;
+  }
+  .type-985 .header .cover-header .arrow.right {
+    right: 35%;
+  }
+  .type-985 .header .cover-header {
+    width: 100%;
+  }
+}
