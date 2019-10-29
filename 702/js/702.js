@@ -26,12 +26,11 @@ $(document).ready(function() {
     slidesPerGroup: 1,
     loop: true,
     loopFillGroupWithBlank: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true
+    navigation: {
+      nextEl: '#swiper_btn_next',
+      prevEl: '#swiper_btn_prev',
     },
-    nextButton: "#swiper_btn_next",
-    prevButton: "#swiper_btn_prev",
+   
     breakpoints: {
       1200: {
         slidesPerView: 3,
@@ -42,6 +41,10 @@ $(document).ready(function() {
         spaceBetween: 0
       },
       770: {
+        slidesPerView: 1,
+        spaceBetween: 60
+      },
+      500:{
         slidesPerView: 1,
         spaceBetween: 60
       }

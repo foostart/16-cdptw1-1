@@ -15,7 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
             <div class="content">
                 <!--BLOG-TOP-->
                 <div class="blog-top">
-                    <h4>Featured introduction</h4>  
+                    <h4>Featured introduction</h4>
                 </div>
                 <!--/BLOG-TOP-->
                 <div class=" clearfix"></div>
@@ -32,7 +32,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--IMG-->
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="<?php echo $url_path ?>/images/1.jpg" alt=""/>
+                                            <img src="<?php echo $url_path ?>/images/1.jpg" alt="" />
                                         </a>
                                     </div>
                                     <!--/IMG-->
@@ -61,7 +61,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--IMG-->
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="<?php echo $url_path ?>/images/2.jpg" alt=""/>
+                                            <img src="<?php echo $url_path ?>/images/2.jpg" alt="" />
                                         </a>
                                     </div>
                                     <!--/IMG-->
@@ -90,7 +90,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--IMG-->
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="<?php echo $url_path ?>/images/3.jpg" alt=""/>
+                                            <img src="<?php echo $url_path ?>/images/3.jpg" alt="" />
                                         </a>
                                     </div>
                                     <!--/IMG-->
@@ -119,7 +119,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--IMG-->
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="<?php echo $url_path ?>/images/4.jpg" alt=""/>
+                                            <img src="<?php echo $url_path ?>/images/4.jpg" alt="" />
                                         </a>
                                     </div>
                                     <!--/IMG-->
@@ -148,7 +148,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--IMG-->
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="<?php echo $url_path ?>/images/5.jpg" alt=""/>
+                                            <img src="<?php echo $url_path ?>/images/5.jpg" alt="" />
                                         </a>
                                     </div>
                                     <!--/IMG-->
@@ -168,7 +168,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <!--/blog-content-->
                         </div>
                         <!--/SLIDE-->
-                          <!--SLIDE-->
+                        <!--SLIDE-->
                         <div class="swiper-slide col-md-4 col-sm-6 col-xs-12">
                             <!--blog-content-->
                             <div class="blog-content">
@@ -177,7 +177,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--IMG-->
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="<?php echo $url_path ?>/images/6.jpg" alt=""/>
+                                            <img src="<?php echo $url_path ?>/images/6.jpg" alt="" />
                                         </a>
                                     </div>
                                     <!--/IMG-->
@@ -197,7 +197,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <!--/blog-content-->
                         </div>
                         <!--/SLIDE-->
-                          <!--SLIDE-->
+                        <!--SLIDE-->
                         <div class="swiper-slide col-md-4 col-sm-6 col-xs-12">
                             <!--blog-content-->
                             <div class="blog-content">
@@ -206,7 +206,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--IMG-->
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="<?php echo $url_path ?>/images/7.jpg" alt=""/>
+                                            <img src="<?php echo $url_path ?>/images/7.jpg" alt="" />
                                         </a>
                                     </div>
                                     <!--/IMG-->
@@ -226,7 +226,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <!--/blog-content-->
                         </div>
                         <!--/SLIDE-->
-                          <!--SLIDE-->
+                        <!--SLIDE-->
                         <div class="swiper-slide col-md-4 col-sm-6 col-xs-12">
                             <!--blog-content-->
                             <div class="blog-content">
@@ -235,7 +235,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--IMG-->
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="<?php echo $url_path ?>/images/8.jpg" alt=""/>
+                                            <img src="<?php echo $url_path ?>/images/8.jpg" alt="" />
                                         </a>
                                     </div>
                                     <!--/IMG-->
@@ -255,7 +255,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <!--/blog-content-->
                         </div>
                         <!--/SLIDE-->
-                          <!--SLIDE-->
+                        <!--SLIDE-->
                         <div class="swiper-slide col-md-4 col-sm-6 col-xs-12">
                             <!--blog-content-->
                             <div class="blog-content">
@@ -264,7 +264,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--IMG-->
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="<?php echo $url_path ?>/images/9.jpg" alt=""/>
+                                            <img src="<?php echo $url_path ?>/images/9.jpg" alt="" />
                                         </a>
                                     </div>
                                     <!--/IMG-->
@@ -284,7 +284,7 @@ $url_path = str_replace('\\', '/', $url_path);
                             <!--/blog-content-->
                         </div>
                         <!--/SLIDE-->
-                          <!--SLIDE-->
+                        <!--SLIDE-->
                         <div class="swiper-slide col-md-4 col-sm-6 col-xs-12">
                             <!--blog-content-->
                             <div class="blog-content">
@@ -293,7 +293,7 @@ $url_path = str_replace('\\', '/', $url_path);
                                     <!--IMG-->
                                     <div class="blog-img">
                                         <a href="#">
-                                            <img src="<?php echo $url_path ?>/images/10.jpg" alt=""/>
+                                            <img src="<?php echo $url_path ?>/images/10.jpg" alt="" />
                                         </a>
                                     </div>
                                     <!--/IMG-->
@@ -332,4 +332,3 @@ $url_path = str_replace('\\', '/', $url_path);
     </div>
     <!--/CONTAINER-->
 </div>
-

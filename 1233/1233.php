@@ -24,6 +24,7 @@ $less->compileFile('less/1233.less', 'css/1233.css');
     <link href="<?php echo $url_path ?>/css/1233.css" rel="stylesheet" type="text/css" />
     <script src="<?php echo $url_path ?>/js/jquery-3.1.1.min.js"></script>
     <script src="<?php echo $url_path ?>/js/bootstrap.min.js"></script>
+    <script src="<?php echo $url_path ?>/js/1233.js"></script>
     <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 </head>
 
